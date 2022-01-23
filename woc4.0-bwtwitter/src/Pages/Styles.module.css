@@ -1,0 +1,143 @@
+.tweetclass {
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    box-shadow:5px 5px 5px darkgray;
+    border-radius: 1px 1px 7px 7px;
+    text-align:justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Segoe UI;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.imageclass{
+    padding-left: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow:5px 0px 5px darkgray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-radius: 7px 7px 1px 1px;
+}
+
+.navbar{
+    text-align: right;
+    background: linear-gradient(90deg, white, lightgray);
+    margin: 0px;
+    padding: 3px;
+    font-size: 130%;
+    height: 40px;
+}
+
+.navbaritem{
+    font-size: 130%;
+    font-family:sans-serif;
+    font-weight: 400;
+    text-decoration:none;
+    color: black;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.navbaritem:hover,active{
+    background: linear-gradient(darkgray, lightgray);
+}
+
+.formStyle{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 4px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_wrapper{
+    background: linear-gradient(135deg, rgb(240, 240, 240), white);
+    min-width: 350px;
+    min-height: 650p;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.title{
+    color: gray;
+    text-align: center;
+    font-size: 25px;
+    margin: 80px, 0px, 40px, 0px;
+}
+
+.name, .email, .password, .username {
+    margin: 20px;
+    color: gray;
+    font-size: 16px;
+}
+
+.password{
+    margin-bottom: 40px
+}
+
+.input{
+    height: 32px;
+    font-size: 20px;;
+    outline: none;
+    width: 100%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 2px solid darkgray;
+    margin-bottom: 10px;
+}
+
+button{
+    border-radius: 8px;
+    border: 0px;
+    background: lightgray;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+}
+
+button:active{
+    transform: translateY(2px);
+    background-color: rgb(198, 226, 243);
+}
+
+button:hover{
+    background-color: rgb(198, 226, 243);
+}
+
+.card{
+    border-radius: 15px;
+    max-width: 175px;
+    background: linear-gradient(135deg, rgb(175, 151, 151), lightgray);
+    float: left;
+    height: 365px;
+    margin: 5px;
+}
+
+.poster{
+    height: 250px;
+}
+
+.details{
+    margin: 4px;
+    max-width: 170px;
+}
